@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgb(12, 12, 12) !important;
+}
+
+/* تغيير لون النص داخل الـ navbar إلى اللون الأسود */
+.navbar .navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important; 
+    /* يمكن تغيير اللون هنا */
+}
+
+/* تغيير لون النص عند التمرير فوقه */
+.navbar .navbar-nav .nav-link:hover {
+    color: #255eae !important; /* الأخضر عند التمرير */
+}
+
+/* تخصيص اللون خلف كلمة Home */
+.navbar-brand {
+    color: rgb(255, 255, 255) !important; /* تغيير لون النص في كلمة "Home" */
+   
+}
+
+.navbar-brand:hover {
+    color: #668154 !important; /* الأخضر عند التمرير */
+}
+
+/* إذا كنت تريد أن يكون النص أبيض في حالة خلفية داكنة */
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(5, 5, 5) !important; /* تغيير النص إلى الأبيض هنا */
+}
+.offcanvas-title{
+    color: black;
+    font-size: 30px
+}
+img{
+    height: 100vh;  
+}
+h2{
+    text-align: center;
+}
